@@ -1,3 +1,4 @@
+import 'package:cardui/components/card_image.dart';
 import 'package:flutter/material.dart';
 
 import 'components/appbar_rounded_bottom.dart';
@@ -12,11 +13,17 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
+    final double height = MediaQuery.of(context).size.height;
+    final double width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
         children: [
           AppbarRoundedBottom(),
+          SizedBox(
+            height: height * 0.05,
+          ),
+          CardImage(),
         ],
       ),
     );
