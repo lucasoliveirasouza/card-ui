@@ -28,10 +28,11 @@ class _CardImageState extends State<CardImage> {
                   borderRadius: BorderRadius.circular(0.0),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.grey.withOpacity(0.3),
-                        offset: new Offset(-10.0, 10.0),
-                        blurRadius: 20.0,
-                        spreadRadius: 4.0)
+                      color: Colors.grey.withOpacity(0.3),
+                      offset: new Offset(-10.0, 10.0),
+                      blurRadius: 20.0,
+                      spreadRadius: 4.0,
+                    )
                   ],
                 ),
               ),
