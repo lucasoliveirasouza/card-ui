@@ -8,8 +8,8 @@ class CardRoundedBottomLeft extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(bottom: 10, top: 25),
-      height: 200,
-      padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
+      height: 180,
+      padding: EdgeInsets.only(left: 20, right: 20, bottom: 10),
       child: Container(
         decoration: BoxDecoration(
           color: defaultColor,

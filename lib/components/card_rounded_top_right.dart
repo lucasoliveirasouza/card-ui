@@ -8,7 +8,7 @@ class CardRoundedTopRight extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(bottom: 10, top: 15),
-      height: 200,
+      height: 180,
       padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
       child: Container(
         decoration: BoxDecoration(
