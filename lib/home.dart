@@ -1,5 +1,6 @@
 import 'package:cardui/components/card_image.dart';
 import 'package:cardui/components/card_rounded_bottom_left.dart';
+import 'package:cardui/components/card_rounded_top_right.dart';
 import 'package:flutter/material.dart';
 
 import 'components/appbar_rounded_bottom.dart';
@@ -32,7 +33,7 @@ class _HomeViewState extends State<HomeView> {
               child: ListView(
                 children: [
                   CardRoundedBottomLeft(),
-                  CardRoundedBottomLeft(),
+                  CardRoundedTopRight(),
                 ],
               ),
             ),
