@@ -59,6 +59,26 @@ class _CardImageState extends State<CardImage> {
                 ),
               ),
             ),
+          ),
+          Positioned(
+            top: 45,
+            left: 160,
+            child: Container(
+              height: 150,
+              width: 180,
+              child: Column(
+                children: [
+                  Text(
+                    "Big Miracles",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: defaultColor,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           )
         ],
       ),
