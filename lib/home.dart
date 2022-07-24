@@ -1,4 +1,5 @@
 import 'package:cardui/components/card_image.dart';
+import 'package:cardui/components/card_rounded_bottom_left.dart';
 import 'package:flutter/material.dart';
 
 import 'components/appbar_rounded_bottom.dart';
@@ -24,6 +25,13 @@ class _HomeViewState extends State<HomeView> {
             height: height * 0.05,
           ),
           CardImage(),
+          Expanded(
+            child: ListView(
+              children: [
+                CardRoundedBottomLeft(),
+              ],
+            ),
+          )
         ],
       ),
     );
