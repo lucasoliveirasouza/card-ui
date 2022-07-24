@@ -27,6 +27,7 @@ class _HomeViewState extends State<HomeView> {
           CardImage(),
           Expanded(
             child: MediaQuery.removePadding(
+              removeTop: true,
               context: context,
               child: ListView(
                 children: [
