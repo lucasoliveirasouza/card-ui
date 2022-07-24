@@ -65,8 +65,9 @@ class _CardImageState extends State<CardImage> {
             left: 200,
             child: Container(
               height: 150,
-              width: 180,
+              width: 160,
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     "Big Miracles",
@@ -86,6 +87,14 @@ class _CardImageState extends State<CardImage> {
                   ),
                   Divider(
                     color: Colors.black,
+                  ),
+                  Text(
+                    "It`s larger than life",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ],
               ),
