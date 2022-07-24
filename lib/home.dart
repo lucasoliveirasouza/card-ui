@@ -26,10 +26,14 @@ class _HomeViewState extends State<HomeView> {
           ),
           CardImage(),
           Expanded(
-            child: ListView(
-              children: [
-                CardRoundedBottomLeft(),
-              ],
+            child: MediaQuery.removePadding(
+              context: context,
+              child: ListView(
+                children: [
+                  CardRoundedBottomLeft(),
+                  CardRoundedBottomLeft(),
+                ],
+              ),
             ),
           )
         ],
