@@ -56,6 +56,7 @@ class _CardImageState extends State<CardImage> {
                     fit: BoxFit.fill,
                     image: AssetImage("assets/images/person.png"),
                   ),
+                  color: defaultColor,
                 ),
               ),
             ),
