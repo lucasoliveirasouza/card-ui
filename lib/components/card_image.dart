@@ -76,6 +76,14 @@ class _CardImageState extends State<CardImage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Text(
+                    "Dylan Ahmed",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),
