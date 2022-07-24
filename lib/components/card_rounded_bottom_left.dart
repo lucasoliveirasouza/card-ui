@@ -25,6 +25,34 @@ class CardRoundedBottomLeft extends StatelessWidget {
             ),
           ],
         ),
+        padding: EdgeInsets.only(
+          left: 32,
+          top: 50.0,
+          bottom: 50,
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "THE BEST",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 12,
+              ),
+            ),
+            SizedBox(
+              height: 2,
+            ),
+            Text(
+              "Your life starts here",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 22,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
