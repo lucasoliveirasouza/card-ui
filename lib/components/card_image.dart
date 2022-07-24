@@ -61,8 +61,8 @@ class _CardImageState extends State<CardImage> {
             ),
           ),
           Positioned(
-            top: 45,
-            left: 160,
+            top: 60,
+            left: 200,
             child: Container(
               height: 150,
               width: 180,
@@ -83,6 +83,9 @@ class _CardImageState extends State<CardImage> {
                       color: Colors.grey,
                       fontWeight: FontWeight.bold,
                     ),
+                  ),
+                  Divider(
+                    color: Colors.black,
                   ),
                 ],
               ),
