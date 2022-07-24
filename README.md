@@ -13,7 +13,7 @@
 <img align="center" title="Dart" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg">  <img align="center" title="Flutter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg">
 
 #### Descrição:
-Aplicativo para treinar interface de cards.
+Aplicativo para treinar interface de cards, com arredondamento de bordas
 
 #### O Aplicativo:
 
