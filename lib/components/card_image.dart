@@ -89,7 +89,7 @@ class _CardImageState extends State<CardImage> {
                     color: Colors.black,
                   ),
                   Text(
-                    "It`s larger than life",
+                    "It's larger than life",
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.grey,
