@@ -34,7 +34,7 @@ class CardRoundedTopRight extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "THE BEST",
+              "STAR NOW",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 12,
@@ -44,7 +44,7 @@ class CardRoundedTopRight extends StatelessWidget {
               height: 2,
             ),
             Text(
-              "Your life starts here",
+              "Try it now",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 22,

@@ -12,6 +12,14 @@ class AppbarRoundedBottom extends StatelessWidget {
         borderRadius: BorderRadius.only(
           bottomRight: Radius.circular(50),
         ),
+        boxShadow: [
+          BoxShadow(
+            color: defaultColor.withOpacity(0.3),
+            offset: new Offset(-10.0, 10.0),
+            blurRadius: 20.0,
+            spreadRadius: 4.0,
+          ),
+        ],
         color: defaultColor,
       ),
       child: Stack(
