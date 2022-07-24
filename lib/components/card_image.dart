@@ -52,11 +52,10 @@ class _CardImageState extends State<CardImage> {
                 width: 150,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
-                  color: defaultColor,
-                  /*image: DecorationImage(
+                  image: DecorationImage(
                     fit: BoxFit.fill,
-                    image: AssetImage(""),
-                  ),*/
+                    image: AssetImage("assets/images/person.png"),
+                  ),
                 ),
               ),
             ),
